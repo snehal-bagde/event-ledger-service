@@ -58,7 +58,6 @@ files = [
 
 [package.dependencies]
 idna = ">=2.8"
-typing_extensions = {version = ">=4.5", markers = "python_version < \"3.13\""}
 
 [package.extras]
 trio = ["trio (>=0.32.0)"]
@@ -961,7 +960,6 @@ files = [
 
 [package.dependencies]
 anyio = ">=3.6.2,<5"
-typing-extensions = {version = ">=4.10.0", markers = "python_version < \"3.13\""}
 
 [package.extras]
 full = ["httpx (>=0.27.0,<0.29.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.18)", "pyyaml"]
@@ -1382,5 +1380,5 @@ dev = ["pytest", "setuptools"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = "^3.12"
-content-hash = "7540aa0cff12b882dc2cc74632cb91c038217cc63a7e1cb2adc7d7cfe2679dca"
+python-versions = ">=3.14,<4.0"
+content-hash = "a0c2641922dc6e3f1619846df6d26427b3922ac9e9adb315d251df74ccfc1382"
