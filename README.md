@@ -8,7 +8,7 @@ Payment lifecycle event ingestion and reconciliation API built with FastAPI, Pos
 
 | Tool | Version | Install |
 |------|---------|---------|
-| Python | 3.14+ | `brew install python@3.14` |
+| Python | 3.12+ | `brew install python@3.12` |
 | Poetry | 2.x | [poetry install docs](https://python-poetry.org/docs/#installation) |
 | PostgreSQL | 14+ | `brew install postgresql@16` |
 | Redis | 7+ | `brew install redis` _(optional — see below)_ |
